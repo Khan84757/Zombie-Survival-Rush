@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombie Survival Rush</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Zombie Survival Rush</h1>
+            <p>Defend your base and survive the zombie waves!</p>
+        </header>
+        <main>
+            <canvas id="game-canvas"></canvas>
+            <div id="hud">
+                <p>Score: <span id="score">0</span></p>
+                <p>Health: <span id="health">100</span></p>
+                <p>Wave: <span id="wave">1</span></p>
+            </div>
+            <button id="start-button">Start Game</button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
